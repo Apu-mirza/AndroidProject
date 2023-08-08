@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20sp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingRight="10dp"
+        android:hint="Your Name"
+        android:id="@+id/userNameId"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20sp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingRight="10dp"
+        android:hint="Your Email"
+        android:id="@+id/emailId"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20sp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingRight="10dp"
+        android:hint="Create a Password"
+        android:id="@+id/passwordId"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Sign up"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:id="@+id/buttonId"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:textColor="#ffd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="19dp"
+            android:text="Already Have an Account?"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:text="SignIn Here"
+            android:id="@+id/signInId"
+            android:textColor="#ffd"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226136746534",
+    "project_id": "f-base-signin",
+    "storage_bucket": "f-base-signin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226136746534:android:520b575c7b8bf88626d4e7",
+        "android_client_info": {
+          "package_name": "com.example.f_basesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226136746534-6o8cqdcjtf9j2qn09qacfg7pdi9msum4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmEhY0hR8eso7zgmXstMAiox-y07aaGiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226136746534-6o8cqdcjtf9j2qn09qacfg7pdi9msum4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
